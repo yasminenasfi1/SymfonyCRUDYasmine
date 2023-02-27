@@ -1,0 +1,9 @@
+<h1>Modifier Classroom</h1>
+{% block body %}
+    {{ form_start(form) }}
+    {{ form_label(form.Name) }}
+    {{ form_widget(form.Name) }}
+    {{ form_rest(form) }}
+    <button type="submit">Enregistrer</button>
+    {{ form_end(form) }}
+{% endblock %}
